@@ -4,8 +4,9 @@ A schema management plugin for Airflow
 ## Features
  - [In Progress] Manage schema of source and destination tables
  - [In Progress] Manage mappings down to the column level
- - [] Data type conversion abilities
-    - v1. Json -> Redshift
-- [] Schema reconciliation
+ - [TODO] View schemas and mappings from airflow web view
+ - [TODO] Modify destination names and mappings from web view
+ - [TODO] Data type conversion abilities
+ - [TODO] Schema reconciliation (JSON -> Redshift)
 The ability to detect changes in the source schema and push them to destination
-- [] API For all above features
+ - [TODO] API For all above features
